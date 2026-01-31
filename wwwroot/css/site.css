@@ -1,0 +1,107 @@
+/* HTML RULES */
+html {
+    font-family: Orbitronio;
+    color: black;
+}
+
+/* BODY RULES */
+
+body {
+    padding: 0;
+}
+
+/* NAV MENU RULES */
+#nav_menu{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#nav_menu ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+}
+#nav_menu ul li{
+    width: 19.50%;
+    float: left;
+    display: inline;
+    position: relative;
+}
+#nav_menu ul ul{
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li{
+    width: 100%;
+    clear: both;
+}
+
+    #nav_menu ul li a:hover, #nav_menu a:focus {
+        background-color: lightgray;
+        color: red;
+
+    }
+
+    #nav_menu ul li:hover > ul {
+        display: block;
+    }
+
+#nav_menu > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav_menu ul li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: .4em double black;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 1em 0;
+    transition: border .5s ease-out, .5s;
+}
+
+/* HEADER RULES */
+header {
+    text-align: center;
+    font-size: xx-large;
+    border: double black;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+header #headerleft{
+    float: left;
+    font-size: 4em;
+    margin-left: 1.5em;
+    margin-top: 3%;
+}
+header #headerright {
+    float: right;
+    font-size: 4em;
+    margin-right: 1.5em;
+    margin-top: 3%;
+}
+
+
+
+/* SECTION RULES */
+
+section {
+    text-align:center;
+    font-size: large;
+}
+
+/* FONT RULES */
+
+/*font used for home page*/
+@font-face{
+    font-family: Orbitronio;
+    src: url(../fonts/Orbitronio.ttf);
+}
