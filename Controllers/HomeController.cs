@@ -22,6 +22,11 @@ namespace corgitankwebsite.Controllers
             return View();
         }
 
+        public IActionResult AboutCreator()
+        {
+            return View();
+        }
+
 
         //If it uses HttpPost, then it takes in data from the user.
     }

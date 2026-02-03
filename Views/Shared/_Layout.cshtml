@@ -21,10 +21,11 @@
         <ul>
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
             <li>
-                <a asp-controller="Enjoy" asp-action="MainEnjoy">Things I Enjoy</a>
+                <a asp-controller="Enjoy" asp-action="MainEnjoy">Things I Love</a>
                 <ul>
                     <li><a asp-controller="Enjoy" asp-action="Music">Music</a></li>
                     <li><a asp-controller="Enjoy" asp-action="Films">Films</a></li>
+                    <li><a asp-controller="Enjoy" asp-action="VideoGames">Video Games</a></li>
                 </ul>
                 
             </li>
@@ -37,7 +38,8 @@
             </li>
             <li><a asp-controller="Home" asp-action="About">Learn More</a>
                 <ul>
-                    <li><a target="_blank" href="https://resume.corgitank.net/">About the creator</a></li>
+                    <li><a target="_blank" href="https://resume.corgitank.net/">The resume page</a></li>
+                    <li><a asp-controller="Home" asp-action="AboutCreator">About the creator</a></li>
                     <li><a asp-controller="Home" asp-action="AboutWebsite">About the website</a></li>
                 </ul>
             </li>
