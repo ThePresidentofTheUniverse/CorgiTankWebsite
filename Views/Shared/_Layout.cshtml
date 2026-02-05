@@ -21,11 +21,11 @@
         <ul>
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
             <li>
-                <a asp-controller="Enjoy" asp-action="MainEnjoy">Things I Love</a>
+                <a asp-controller="Love" asp-action="MainLove">Things I Love</a>
                 <ul>
-                    <li><a asp-controller="Enjoy" asp-action="Music">Music</a></li>
-                    <li><a asp-controller="Enjoy" asp-action="Films">Films</a></li>
-                    <li><a asp-controller="Enjoy" asp-action="VideoGames">Video Games</a></li>
+                    <li><a asp-controller="Love" asp-action="Music">Music</a></li>
+                    <li><a asp-controller="Love" asp-action="Film">Films</a></li>
+                    <li><a asp-controller="Love" asp-action="VideoGame">Video Games</a></li>
                 </ul>
                 
             </li>
@@ -36,11 +36,11 @@
                     <li><a asp-controller="" asp-action="BurnCD">Burn audio CDs</a></li>
                 </ul>
             </li>
-            <li><a asp-controller="Home" asp-action="About">Learn More</a>
+            <li><a asp-controller="About" asp-action="About">Learn More</a>
                 <ul>
                     <li><a target="_blank" href="https://resume.corgitank.net/">The resume page</a></li>
-                    <li><a asp-controller="Home" asp-action="AboutCreator">About the creator</a></li>
-                    <li><a asp-controller="Home" asp-action="AboutWebsite">About the website</a></li>
+                    <li><a asp-controller="About" asp-action="AboutCreator">About the creator</a></li>
+                    <li><a asp-controller="About" asp-action="AboutWebsite">About the website</a></li>
                 </ul>
             </li>
 
@@ -49,5 +49,8 @@
     <div>
         @RenderBody()
     </div>
+    <footer>
+        &copy 2026 CorgiTank
+    </footer>
 </body>
 </html>

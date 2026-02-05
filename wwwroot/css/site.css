@@ -7,7 +7,7 @@ html {
 /* BODY RULES */
 
 body {
-    padding: 0;
+    padding: 0%;
 }
 
 /* NAV MENU RULES */
@@ -98,6 +98,15 @@ header #headerright {
 section {
     text-align:center;
     font-size: large;
+}
+
+/* FOOTER RULES */
+footer{
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    background-color: lightgray;
+    border-top: double black .5em;
 }
 
 /* FONT RULES */

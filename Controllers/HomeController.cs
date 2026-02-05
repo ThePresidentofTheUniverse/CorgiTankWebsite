@@ -1,4 +1,4 @@
-using System.Diagnostics;
+//This is used specifically for the home page
 using Microsoft.AspNetCore.Mvc;
 
 namespace corgitankwebsite.Controllers
@@ -11,22 +11,6 @@ namespace corgitankwebsite.Controllers
         {
             return View();
         }
-
-        public IActionResult About()
-        {
-            return View();
-        }
-
-        public IActionResult AboutWebsite()
-        {
-            return View();
-        }
-
-        public IActionResult AboutCreator()
-        {
-            return View();
-        }
-
 
         //If it uses HttpPost, then it takes in data from the user.
     }
