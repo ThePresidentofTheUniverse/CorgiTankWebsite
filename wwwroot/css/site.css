@@ -8,10 +8,28 @@ html {
 
 body {
     padding: 0%;
+    
 }
 
+#AboutWebsiteBody {
+    font-family: Pixellari;
+    background-color: rebeccapurple;
+    background-image: url(../Images/carina_nebula.png)
+}
+
+/*HOME PAGE VIDEO RULES*/
+#HomePagevideo
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+
+}
 /* NAV MENU RULES */
-#nav_menu{
+#nav_menu {
     position: relative;
     width: 100%;
     z-index: 1;
@@ -40,7 +58,7 @@ body {
 }
 
     #nav_menu ul li a:hover, #nav_menu a:focus {
-        background-color: lightgray;
+        background-color: rgb(128,128,128, .25);
         color: red;
 
     }
@@ -64,13 +82,15 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     color: black;
-    background-color: white;
+    background-color: rgb(255,255,255, .75);
     padding: 1em 0;
-
+    font-family: Orbitronio;
+    color: black;
 }
 
 /* HEADER RULES */
 header {
+    background-color: rgb(255,255,255, .75);
     text-align: center;
     font-size: xx-large;
     border: double black;
@@ -91,28 +111,54 @@ header #headerright {
     margin-top: 3%;
 }
 
-
+#AboutWebsiteHeader {
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    font-family: Pixellari;
+    border: double black .5em;
+    background-color: rgb(255,255,255, 0.50);
+}
 
 /* SECTION RULES */
-
 section {
-    text-align:center;
+    text-align: center;
     font-size: large;
 }
 
+#easyReadAbout {
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    font-family: Pixellari;
+    border: double black .5em;
+    margin: 10em;
+    background-color: rgb(255,255,255, 0.50);
+}
 /* FOOTER RULES */
-footer{
+footer {
     text-align: center;
     width: 100%;
     font-size: x-large;
-    background-color: lightgray;
+    background-color: rgb(128,128,128, .50);
     border-top: double black .5em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Pixellari;
 }
 
 /* FONT RULES */
 
 /*font used for home page*/
-@font-face{
+@font-face {
     font-family: Orbitronio;
     src: url(../fonts/Orbitronio.ttf);
+}
+
+@font-face{
+        font-family: Pixellari;
+    src: url(../fonts/Pixellari.ttf)
 }

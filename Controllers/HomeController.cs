@@ -12,6 +12,12 @@ namespace corgitankwebsite.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult SecurityBugReport()
+        {
+            return View();
+        }
+
         //If it uses HttpPost, then it takes in data from the user.
     }
 }

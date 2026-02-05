@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# specific folders that just contain visual / audio data
+wwwroot/audio
+wwwroot/Images
+wwwroot/videos

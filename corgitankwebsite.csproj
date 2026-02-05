@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="wwwroot\audio\" />
+    <Folder Include="wwwroot\videos\" />
   </ItemGroup>
 
 </Project>

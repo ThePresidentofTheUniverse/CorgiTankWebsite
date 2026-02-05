@@ -1,0 +1,23 @@
+﻿html{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+section{
+    border:solid
+}
+section ul{
+    text-align: left;
+}
+footer {
+    border-top: solid .5em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
