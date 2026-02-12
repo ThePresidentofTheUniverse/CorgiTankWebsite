@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
 </head>
 
 <!--BODY-->
@@ -29,9 +30,9 @@
                 </ul>
                 
             </li>
-            <li><a asp-controller="" asp-action="BEDCalc">BED Calculator</a></li>
+            <li><a asp-controller="Utility" asp-action="MainUtility">Utilities</a></li>
             <li>
-                <a asp-controller="" asp-action="MainHow">How To</a>
+                <a asp-controller="HowTo" asp-action="MainHow">How To</a>
                 <ul>
                     <li><a asp-controller="" asp-action="BurnCD">Burn audio CDs</a></li>
                 </ul>

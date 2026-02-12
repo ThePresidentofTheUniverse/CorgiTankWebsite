@@ -1,0 +1,45 @@
+﻿/*BODY STYLE RULES*/
+body{
+    background-color: black;
+    color: green;
+}
+
+/*NAV MENU STYLES*/
+
+/*HEADER STYLE RULES*/
+header{
+    background: none;
+    border: double green;
+}
+
+/*UTLITY PORTAL STYLE*/
+
+#Utility ul {
+    font-family: Pixellari;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+#Utility ul li {
+    display: inline;
+    float: left;
+    position: relative;
+    padding: 1em;
+}
+
+#Utility ul li a {
+    text-decoration: none;
+    display: block;
+    border: .4em double green;
+    height: 25em;
+    width: 25em;
+    font-weight: bold;
+    color: green;
+}
+
+#Utility ul li a:hover, .Utility a:focus {
+    width: 26em;
+    height: 26em;
+}
