@@ -136,6 +136,16 @@ section {
     background-color: rgb(255,255,255, 0.50);
 }
 
+/*Website Update DIV Rules*/
+#WebsiteUpdates {
+    background-color: rgb(255,255,255, .75);
+    text-align: center;
+    font-size: xx-large;
+    border: double black;
+    margin-left: 13em;
+    margin-right: 13em;
+}
+
 /* FOOTER RULES */
 footer {
     text-align: center;
